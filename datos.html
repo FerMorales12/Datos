@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<meta charset="UTF-8">
+<header>
+    
+    <title>Contacto</title>
+    <link rel="stylesheet" href="datos.css">
+    <h1>Ponte en contacto con nosotros-instancia 1</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="Nautilus_Corp.html">Sobre nosotros </a> </li>
+            <li><a href="redes_sociales.html">Redes sociales </a> </li>
+            
+        </ul>
+    </nav>
+    
+</header>
+
+<form>
+    <label for="phone">Número de teléfono:</label>
+    <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
+
+    <label for="email">Correo electrónico:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="name">Nombre:</label>
+    <input type="text" id="name" name="name" pattern="[A-Za-zÀ-ÿ\u00f1\u00d1 ]+" required>
+
+    <label for="message">Mensaje:</label>
+    <textarea id="message" name="message" maxlength="500" required></textarea>
+
+    <button type="submit">Enviar</button>
+</form>
+
+
+</body>
+</html>
